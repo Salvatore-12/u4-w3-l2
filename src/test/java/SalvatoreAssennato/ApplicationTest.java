@@ -1,4 +1,4 @@
-package Salvatore-Assennato;
+package SalvatoreAssennato;
 
 import org.junit.jupiter.api.Test;
 

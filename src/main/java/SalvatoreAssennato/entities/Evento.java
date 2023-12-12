@@ -23,7 +23,7 @@ public class Evento {
     private EventoType eventoType;
     @Column(name = "numero_massimo_partecipanti")
     private int numberMaxPartecipants;
-
+    public Evento(){};
     public Evento(String title, LocalDate dateEvent, String description, EventoType eventoType, int numberMaxPartecipants) {
         this.title = title;
         this.dateEvent = dateEvent;
