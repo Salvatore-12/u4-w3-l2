@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62791a22-e262-43ec-99df-30597192ec1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="62791a22-e262-43ec-99df-30597192ec1d" name="Changes" comment="Adds commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SalvatoreAssennato/entities/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SalvatoreAssennato/entities/EventoType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Salvatore-Assennato/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SalvatoreAssennato/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Salvatore-Assennato/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SalvatoreAssennato/ApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -36,7 +39,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/TURY/Desktop/back end/U4-W3-L2/u4-w3-l2/src/main/java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,6 +53,19 @@
       <option name="presentableId" value="Default" />
       <updated>1702386261111</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adds commit">
+      <option name="closed" value="true" />
+      <created>1702387806094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702387806094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds commit" />
   </component>
 </project>
