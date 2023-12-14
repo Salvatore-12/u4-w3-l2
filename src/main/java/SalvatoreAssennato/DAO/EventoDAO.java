@@ -11,8 +11,10 @@ public class EventoDAO {
     public EventoDAO(EntityManager em) {
         this.em = em;
     }
-    public void save(Evento evento) {
 
+    // metodo per salvare
+    public void save(Evento evento) {
+         // 0. Ho bisogno di una transazione (mi viene fornita dall'EntityManager)
         EntityTransaction transaction = em.getTransaction();
         // 1. startare la transazione
         transaction.begin();
@@ -21,10 +23,12 @@ public class EventoDAO {
         // 3. Concludo la transazione col salvataggio nel database
         transaction.commit();
     }
+
+    // metodo per ricercare per id
     public Evento findByid(long id){
         return em.find(Evento.class,id);
     }
-
+    // metodo per ricercare ed eliminare per id
     public void findByIdAndDelete(long id) {
         // 1. Cerco lo studente in db
         Evento found = this.findByid(id);
@@ -44,11 +48,11 @@ public class EventoDAO {
             // 2.3. Concludo la transazione con la rimozione effettiva di una riga dalla tabella students
             transaction.commit();
 
-            System.out.println("Studente " + found.getTitle() + " eliminato correttamente!");
+            System.out.println("Evento " + found.getTitle() + " eliminato correttamente!");
 
         } else {
             // 3. Se non c'è --> "Non trovato"
-            System.out.println("Lo studente con l'id " + id + " non è stato trovato");
+            System.out.println("L'evento con l'id " + id + " non è stato trovato");
         }
 
 

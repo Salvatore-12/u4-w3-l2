@@ -16,9 +16,9 @@ public class Application {
         EventoDAO ed=new EventoDAO(em);
 
         Evento musicale=new Evento("Pinguini Tattici nucleari", LocalDate.of(2023,12,12),"evento musicale a San Siro",EventoType.PUBLICO,20000 );
-        ed.save(musicale);
+        //ed.save(musicale);
         Evento partyCaraibi=new Evento("festa ai Caraibi",LocalDate.of(2024,7,18),"balletti tipici dei caraibi",EventoType.PRIVATO,300);
-        ed.save(partyCaraibi);
+        //ed.save(partyCaraibi);
 // ************************************ FIND BY ID ********************************
         long id=2;
          Evento musicaFromDb=ed.findByid(id);
@@ -27,6 +27,7 @@ public class Application {
         } else {
             System.out.println("Evento con id " + id + " non trovato");
         }
+        // metodo per cancellare tramite ID
         ed.findByIdAndDelete(5);
 
         em.close();

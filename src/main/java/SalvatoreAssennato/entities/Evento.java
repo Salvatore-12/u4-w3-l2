@@ -10,7 +10,7 @@ public class Evento {
     @GeneratedValue
     private long id;
 
-    @Column(name = "titolo")
+    @Column(name = "titolo")// Non è obbligatorio
     private String title;
 
     @Column(name = "data_evento")
