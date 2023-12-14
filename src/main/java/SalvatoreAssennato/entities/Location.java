@@ -14,4 +14,41 @@ public class Location {
     private String nome;
     private String città;
 
+    public Location() {
+    }
+
+    public Location(String nome, String città) {
+        this.nome = nome;
+        this.città = città;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCittà() {
+        return città;
+    }
+
+    public void setCittà(String città) {
+        this.città = città;
+    }
+
+    @Override
+    public String toString() {
+        return "Location{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", città='" + città + '\'' +
+                '}';
+    }
 }
